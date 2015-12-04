@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cristiannavarrete.stonecap_quiz" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/stonecap_mipmap"
+        android:theme="@style/AppTheme"
+        android:label="StoneCap State Quiz">
+        <activity
+            android:name="com.example.cristiannavarrete.stonecap_quiz.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChooseQuiz"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".OutlineQuiz"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".FlagQuiz"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NicknameQuiz"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ScoreSubmission"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Leaderboard"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Instructions"
+            android:label="StoneCap State Quiz"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

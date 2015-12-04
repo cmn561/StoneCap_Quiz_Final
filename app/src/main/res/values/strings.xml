@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StoneCap_Quiz</string>
+    <string name="username">Please supply your username.</string>
+    <string name="submit">Submit</string>
+    <string name="welcome">StoneCap State Quiz</string>
+    <string name="chooseQuiz">Please select the quiz that you would like to take.</string>
+    <string name="quiz1">State Outline Quiz</string>
+    <string name="quiz2">State Flag Quiz</string>
+    <string name="quiz3">State Nickname quiz</string>
+    <string name="about">About Us</string>
+    <string name="backToMenu">Back To Menu</string>
+    <string name="questionNumberTV">Question %1$d of %2$d</string>
+    <string name="flagQuesionNumberTV">Guess The State</string>
+    <string name="guessTheState">Guess The State</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="quizName">Quiz:</string>
+    <string name="finalScore">Final Score:</string>
+    <string name="finalStats">Statistics</string>
+    <string name="backToMenuNotSaved">Go Back to Menu \n(Don\'t Save)</string>
+    <string name="addToLeaderboard">Submit Score</string>
+    <string name="name">Name:</string>
+    <string name="userName">Name</string>
+    <string name="userScore">Score</string>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/chooseQuiz"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz1"
+        android:id="@+id/stateOutline"
+        android:layout_marginTop="33dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz2"
+        android:id="@+id/stateFlag"
+        android:layout_marginTop="35dp"
+        android:textColor="#0044ff"
+        android:layout_below="@+id/stateOutline"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz3"
+        android:id="@+id/stateNickname"
+        android:layout_marginTop="36dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/stateFlag"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wallpaper"
+        android:src="@drawable/wallpaper"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stateNickname"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>
